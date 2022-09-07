@@ -36,6 +36,7 @@ public class MergeSort {
 		} else {
 			Node mid = findMid(head2);
 			Node midToNext = mid.next;
+			// I always forget to split like this in merge sort
 			mid.next = null;
 			Node left = mergeSort(head2);
 			Node right = mergeSort(midToNext);

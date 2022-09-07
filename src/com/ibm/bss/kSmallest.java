@@ -3,7 +3,7 @@ package com.ibm.bss;
 public class kSmallest {
 	
 	static int val = 0;
-	static int k = 1;
+	static int k = 3;
 	
 	TreeNode root;
 	
@@ -28,7 +28,16 @@ public class kSmallest {
 	        return 0;
 	    }
 	    
-	    
+	    // below code is simple and will also work
+//	    kSmallest(root.left);
+//	    
+//	    k--;
+//	    if(k == 0) {
+//	    	System.out.println("k smallest is" + root.val);
+//	    }
+//	    kSmallest(root.right);
+	   
+	    // bigger code , still works
 	    val = kSmallest(root.left);
 	   
 	    if(val != 0) {
@@ -48,8 +57,6 @@ public class kSmallest {
 	    }
 		
 		return val;
-		    
-
 	    }
 	    
 	    
@@ -64,7 +71,7 @@ public class kSmallest {
 		    int ele = kSmallest(tree.root);
 		    
 		  
-		    	 System.out.println("k smallest is" + ele);
+		    System.out.println("k smallest is" + ele);
 		    
 		}
 	

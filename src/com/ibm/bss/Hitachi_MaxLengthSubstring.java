@@ -5,7 +5,7 @@ import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
 
-public class MaxLengthSubstring {
+public class Hitachi_MaxLengthSubstring {
 
 	public static void main(String[] args) {
 		//abcbaef. =  bcaef
@@ -47,6 +47,4 @@ public class MaxLengthSubstring {
 		System.out.println("Max length substring is " + resultantString);
 
 	}
-	
-
 }

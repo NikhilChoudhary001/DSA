@@ -2,7 +2,8 @@ package com.ibm.bss;
 
 import java.util.ArrayList;
 import java.util.List;
-
+// https://www.youtube.com/watch?v=UcDZM6Ap5P4
+// leetcode - https://leetcode.com/problems/evaluate-division/
 class CurrRatio{
 	private String currency1;
 	private String currency2;
